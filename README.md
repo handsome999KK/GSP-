@@ -91,7 +91,7 @@ python main_OOD_fewshot.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 -
 python main_OOD_fewshot.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SN3 --fullshot   # eval on SN3
 ```
 
-### 1) 3D classification
+### 2) 3D classification
 - For zero-shot on ModelNet40:
 ```bash
 cd GSP-
