@@ -59,6 +59,11 @@ GSP-/data
 ```
 ## 📊 Evaluation
 ### 1) 3D ood detection
+- For zero-shot:
+```bash
+git clone https://github.com/handsome999KK/GSP-.git
+cd GSP-
+```
 
 
 
