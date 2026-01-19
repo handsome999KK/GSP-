@@ -57,7 +57,8 @@ GSP-/data
 |-- ....
 ....
 ```
-
+## 📊 Evaluation
+### 1) 3D ood detection
 
 
 
