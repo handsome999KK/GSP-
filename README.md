@@ -7,7 +7,7 @@
 
 
 
-- ## 🛠️ Installation
+## 🛠️ Installation
 
 ### 1) Clone
 ```bash
