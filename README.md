@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ```
 
 ### 3) Pretrained models and Dataset
-WWe use the pretrained 3D encoder and text encoder by ULIP2, you can from [here]([https://github.com/salesforce/ULIP](https://huggingface.co/datasets/SFXX/ulip/tree/main))
+We use the pretrained 3D encoder and text encoder by ULIP2, you can from [here](https://github.com/salesforce/ULIP](https://huggingface.co/datasets/SFXX/ulip/tree/main) or 
 
