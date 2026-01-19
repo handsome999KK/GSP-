@@ -59,10 +59,12 @@ GSP-/data
 ```
 ## 📊 Evaluation
 ### 1) 3D ood detection
-- For zero-shot:
+- For zero-shot on ScanObjectNN:
 ```bash
-git clone https://github.com/handsome999KK/GSP-.git
 cd GSP-
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR1  # eval on SR1
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR2  # eval on SR2
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR3  # eval on SR3
 ```
 
 
