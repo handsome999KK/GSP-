@@ -5,7 +5,7 @@
 - **Unified 3D evaluation**: supports point-cloud **OOD detection** and **classification** in a single framework.
 - **Lightweight deployment**: can run on a **single NVIDIA RTX 3090** GPU.
 
-- ## Installation
+- ## 🛠️ Installation
 
 ### 1) Clone
 ```bash
