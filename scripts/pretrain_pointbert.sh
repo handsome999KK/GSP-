@@ -1,0 +1,1 @@
+python3 -m torch.distributed.launch --nproc_per_node=8 main.py --model ULIP_PointBERT --npoints 8192 --lr 3e-3 --output-dir ./outputs/reproduce_pointbert_8kpts
