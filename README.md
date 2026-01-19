@@ -38,3 +38,34 @@ We use the pretrained 3D encoder and text encoder by ULIP2, you can from [ULIP2]
 
 ```
 
+For 3d ood detection task, we follow [3DOS](https://github.com/antoalli/3D_OS) to constrcut dataset, you can from [here](https://drive.google.com/drive/folders/1xEblkFTEIdV1IyIlQLi792-lXfoxVCYO?usp=sharing) to download zhe ood dataset and classification datatse, the dataset folder should have the following structure:
+```bash
+GSP-/data
+🗂️modelnet40_normal_resampled
+|-- modelnet40_test_8192pts_fps.dat
+|-- modelnet40_shape_names.txt
+|-- ...
+🗂️scanobjectnn15_normal_resampled
+|-- scanobjectnn15_test_2048pts_fps_fullshot.dat
+|-- scanobjectnn15_test_2048pts_fps.dat
+|-- scanobjectnn15_shape_names.txt
+|-- ...
+🗂️shapenetcore54_normal_resampled
+|-- shapenetcore54_test_4096pts_fps_fullshot.dat
+|-- shapenetcore54_test_4096pts_fps.dat
+|-- shapenetcore54_shape_names.txt
+|-- ....
+....
+
+
+
+
+
+
+
+
+
+
+
+
+
