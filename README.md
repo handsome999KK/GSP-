@@ -62,11 +62,34 @@ GSP-/data
 - For zero-shot on ScanObjectNN:
 ```bash
 cd GSP-
-python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR1  # eval on SR1
-python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR2  # eval on SR2
-python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR3  # eval on SR3
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR1    # eval on SR1
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR2    # eval on SR2
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR3    # eval on SR3
 ```
 
+- For full-shot on ScanObjectNN:
+```bash
+cd GSP-
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR1 --fullshot   # eval on SR1
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR2 --fullshot   # eval on SR2
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SR3 --fullshot   # eval on SR3
+```
+
+- For zero-shot on Shapenetcore:
+```bash
+cd GSP-
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SN1    # eval on SN1
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SN2    # eval on SN2
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SN3    # eval on SN3
+```
+
+- For full-shot on Shapenetcore:
+```bash
+cd GSP-
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SN1 --fullshot   # eval on SN1
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SN2 --fullshot   # eval on SN2
+python main_OOD.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15 --dataset_split SN3 --fullshot   # eval on SN3
+```
 
 
 
