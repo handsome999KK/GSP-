@@ -97,7 +97,7 @@ python main_OOD_fewshot.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 -
 cd GSP-
 python main_cls.py --model ULIP_PointBERT --evaluate_3d --npoints 8192 --dataset_name ModelNet40
 ```
-- For zero-shot on ModelNet40:
+- For zero-shot on ScanObjectNN:
 ```bash
 cd GSP-
 python main_cls.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset_name ScanObjectNN15
