@@ -106,6 +106,11 @@ python main_cls.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset
 - For few-shot on classification
 Because choosing different training samples as labels has different effects on the results in the few-shot experiment, we have not released the dataset. You can construct it yourself if you are interested. And run ```python main_cls_fewshot.py ```
 
+## 📄 Citation
+paper underreview
+
+## 🙏 Acknowledgements
+We sincerely appreciate these highly valuable repositories [ULIP2](https://github.com/salesforce/ULIP) and [3DOS](https://github.com/antoalli/3D_OS)
 
 
 
