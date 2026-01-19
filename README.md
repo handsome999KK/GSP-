@@ -1,5 +1,5 @@
 # GSP++ 
 ## ✨ Highlights
-- **Feature 1**：一句话（例如：无需训练/微调，开箱即用）
-- **Feature 2**：一句话（例如：支持 ModelNet40 / ScanObjectNN / ShapeNet）
-- **Feature 3**：一句话（例如：动态扩展图推理，适配流式测试）
+- **Training-free & plug-and-play**: runs directly without any pre-training or fine-tuning.
+- **Unified 3D evaluation**: supports point-cloud **OOD detection** and **classification** in a single framework.
+- **Lightweight deployment**: can run on a **single NVIDIA RTX 3090** GPU.
