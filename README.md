@@ -14,4 +14,6 @@
 git clone https://github.com/handsome999KK/GSP-.git
 cd GSP-
 
+
+
 Our experimental environment is follow [ULIP2](https://github.com/salesforce/ULIP) to establish, the code is tested with python = 3.8, CUDA==11.3 and pytorch==1.10.1. You can install GSP following (noted that you need to download the requirements.txt from ULIP2 and put it into the folder):
