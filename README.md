@@ -111,9 +111,7 @@ Because choosing different training samples as labels has different effects on t
   author={Chen, Tiankai and Li, Yushu and Goodge, Adam and Teng, Fei and Yang, Xulei and Liang, Zhen and Li, Tianrui and Xu, Xun},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Exploiting Vision Language Model for Training-Free 3D Point Cloud Understanding via Improved Graph Score Propagation}, 
-  year={2026},
-  pages={1-18},
-  keywords={Labeling;Modeling;Signal detection;Testing;Propagation;Training;Clouds;Accuracy;Conferences;Computer vision;Computer Vision;Vision-Language Model;3D Point Cloud;Graph;Out-of-distribution Detection;3D Classification}}
+  year={2026}}
 
 ## 🙏 Acknowledgements
 We sincerely appreciate these highly valuable repositories [ULIP2](https://github.com/salesforce/ULIP) and [3DOS](https://github.com/antoalli/3D_OS)
