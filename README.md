@@ -107,7 +107,13 @@ python main_cls.py --model ULIP_PointBERT --evaluate_3d --npoints 2048 --dataset
 Because choosing different training samples as labels has different effects on the results in the few-shot experiment, we have not released the dataset. You can construct it yourself if you are interested. And run ```python main_cls_fewshot.py ```
 
 ## 📄 Citation
-paper underreview
+@ARTICLE{chen11659129,
+  author={Chen, Tiankai and Li, Yushu and Goodge, Adam and Teng, Fei and Yang, Xulei and Liang, Zhen and Li, Tianrui and Xu, Xun},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Exploiting Vision Language Model for Training-Free 3D Point Cloud Understanding via Improved Graph Score Propagation}, 
+  year={2026},
+  pages={1-18},
+  keywords={Labeling;Modeling;Signal detection;Testing;Propagation;Training;Clouds;Accuracy;Conferences;Computer vision;Computer Vision;Vision-Language Model;3D Point Cloud;Graph;Out-of-distribution Detection;3D Classification}}
 
 ## 🙏 Acknowledgements
 We sincerely appreciate these highly valuable repositories [ULIP2](https://github.com/salesforce/ULIP) and [3DOS](https://github.com/antoalli/3D_OS)
